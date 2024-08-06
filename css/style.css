@@ -77,6 +77,52 @@ h6 {
     box-shadow: 0px 3px 15px #0000003d;
     border-radius: 5px;
   }
+  .production-section {
+    padding: 1.5rem;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    background-color: var(--Light-Grayish-Blue);
+  }
+  .productivity_section {
+    padding-top: 2.5rem;
+  }
+  .productivity_section p {
+    text-align: left;
+  }
+  .productivity_section h3 {
+    text-align: center;
+  }
+  .productivity_section a {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: var(--Moderate-Cyan);
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 2rem auto 2rem auto;
+    border-bottom: 1px solid var(--Moderate-Cyan);
+  }
+  .client_review {
+    background-color: white;
+    padding: 1.5rem;
+    font-size: 10px;
+    box-shadow: 0px 8px 13px 0px #00000029;
+  }
+  .profile_section {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+  }
+  .profile_section img {
+    width: 40px;
+    border-radius: 100%;
+  }
+  .profile_section p,
+  h5 {
+    margin: 0px;
+    margin-left: 1rem;
+  }
 }
 @media screen and (min-width: 769px) {
   nav {
