@@ -123,7 +123,17 @@ h6 {
     margin: 0px;
     margin-left: 1rem;
   }
+  .access_section {
+    background-color: var(--Desaturated-Blue);
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
+    .subscribe_area input {
+      border: none;
+    }
+  }
 }
+
 @media screen and (min-width: 769px) {
   nav {
     /* background-color: red; */
@@ -168,5 +178,77 @@ h6 {
   }
   .subscribe_area {
     margin-top: 1rem;
+  }
+  .production-section {
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 5rem 1.5rem;
+    background-color: var(--Light-Grayish-Blue);
+    img {
+      width: 50%;
+    }
+  }
+  .productivity_section {
+    width: 45%;
+  }
+  .productivity_section img {
+    width: 20px;
+  }
+  .productivity_section h1 {
+    padding: 1.5rem 0rem;
+  }
+  .productivity_section a {
+    display: flex;
+    text-decoration: none;
+    border-bottom: 1px solid var(--Moderate-Cyan);
+    width: fit-content;
+    color: var(--Moderate-Cyan);
+    font-size: 12px;
+    margin: 2rem 0rem;
+  }
+  .client_review {
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 0px 8px 13px 0px #00000029;
+  }
+  .profile_section {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  .profile_section span {
+    margin-left: 1rem;
+  }
+  .profile_section h5 {
+    margin: 0rem;
+  }
+  .profile_section p {
+    font-size: 0.7rem;
+  }
+  .profile_section img {
+    width: 40px;
+    border-radius: 100%;
+  }
+  .access_section {
+    background-color: var(--Desaturated-Blue);
+    padding: 4rem 3rem;
+    /* text-align: center; */
+    color: white;
+    justify-content: space-between;
+    display: flex;
+  }
+  .title_text {
+    width: 40%;
+  }
+  .title_text p {
+    margin-top: 1rem;
+  }
+  .subscribe_area {
+    width: 50%;
+    button {
+      width: 50%;
+    }
   }
 }
