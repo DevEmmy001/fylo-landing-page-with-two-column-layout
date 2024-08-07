@@ -12,6 +12,9 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 /* font declaration for headings */
 h1,
 h2,
@@ -131,6 +134,58 @@ h6 {
     .subscribe_area input {
       border: none;
     }
+
+    .subscribe_area_access {
+      width: 80%;
+      margin: 0px auto;
+      button {
+        width: 100%;
+        padding: 0.5rem;
+        border: none;
+        color: white;
+        font-weight: 700;
+        background-color: var(--Bright-Blue);
+        box-shadow: 0px 3px 15px #0000003d;
+        border-radius: 5px;
+      }
+      input {
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0rem 0rem 0.5rem 0rem;
+        border-radius: 5px;
+        border: 1px solid black;
+      }
+    }
+  }
+  .footer-section {
+    background-color: var(--Very-Dark-Blue);
+    padding: 2rem;
+  }
+  .email_phone {
+    padding: 2rem 0rem;
+  }
+  .email_phone div {
+    display: flex;
+    align-items: center;
+    color: white;
+    p {
+      margin: 0.5rem 1rem;
+    }
+  }
+  .useful_links a {
+    display: block;
+    color: white;
+    margin: 1rem 0rem;
+    text-decoration: none;
+  }
+  .important_links {
+    margin: 2rem 0rem;
+  }
+  .important_links a {
+    display: block;
+    color: white;
+    margin: 1rem 0rem;
+    text-decoration: none;
   }
 }
 
@@ -155,6 +210,7 @@ h6 {
     flex-direction: row-reverse;
     align-items: center;
     padding: 1.5rem;
+    justify-content: space-between;
   }
   .subscribe_area input {
     width: 100%;
@@ -245,10 +301,63 @@ h6 {
   .title_text p {
     margin-top: 1rem;
   }
-  .subscribe_area {
+  .subscribe_area_access {
     width: 50%;
     button {
       width: 50%;
+      width: 100%;
+      padding: 0.5rem;
+      border: none;
+      color: white;
+      font-weight: 700;
+      background-color: var(--Bright-Blue);
+      box-shadow: 0px 3px 15px #0000003d;
+      border-radius: 5px;
     }
+    input {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0rem 0rem 0.5rem 0rem;
+      border-radius: 5px;
+      border: 1px solid black;
+    }
+  }
+  .footer-section {
+    padding: 4rem 3rem;
+    color: white;
+    background-color: var(--Very-Dark-Blue);
+  }
+  .footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2rem 0rem;
+    width: 90%;
+  }
+  .email_phone {
+    /* padding: 2rem 0rem; */
+  }
+  .email_phone div {
+    display: flex;
+    align-items: center;
+    color: white;
+    p {
+      margin: 0.5rem 1rem;
+    }
+  }
+  .useful_links a {
+    display: block;
+    color: white;
+    margin: 1rem 0rem;
+    text-decoration: none;
+  }
+  .important_links {
+    /* margin: 2rem 0rem; */
+  }
+  .important_links a {
+    display: block;
+    color: white;
+    margin: 1rem 0rem;
+    text-decoration: none;
   }
 }
